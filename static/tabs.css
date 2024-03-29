@@ -50,16 +50,18 @@ body {
 }
 
 .form__input {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  width: 300px;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
-  background-color: #222;
-  text-align: center;
-  color: #fff;
-  cursor:cell;
+   display: flex;
+  align-items: center;
+  background-color: #333;
+  border-radius: 50px;
+  padding: 15px;
+  overflow: hidden;
+  width: 95%;
+  margin-top: 75px;
+  transition: width 0.5s;
+  overflow: hidden;
+  position: fixed;
+  left: 5px;
 }
 
 a{
