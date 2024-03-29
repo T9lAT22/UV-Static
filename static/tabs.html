@@ -15,15 +15,29 @@
       </div>
       <div id="content">
 
-         <form id="uv-form"">
-            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
-            <input id="uv-address" type="text" placeholder="Put url here" class="form__input"/>
-          </form>
+
           <div class="desc left-margin">
             <p id="uv-error"></p>
             <pre id="uv-error-code"></pre>
           </div>
       </div>
+        <style>
+    /* CSS code to style the header */
+    header {
+      background-color: black;
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+            <form id="uv-form"">
+            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+            <input id="uv-address" type="text" placeholder="Put url here" class="form__input"/>
+          </form>
+</header>
       <script src="uv/uv.bundle.js" defer></script>
       <script src="uv/uv.config.js" defer></script>
       <script src="register-sw.js" defer></script>
