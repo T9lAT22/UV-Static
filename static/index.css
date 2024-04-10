@@ -1,17 +1,16 @@
 /* Custom CSS for black theme */
 body {
-  background-color: #000;
+  background-color: #141414 ;
   color: #fff;
   margin: 0;
   padding: 0;
-  background-image:url("https://img.itch.zone/aW1hZ2UvMTY1NDczNS85NzM1Nzg1LmdpZg==/original/LK07lW.gif")
+  font-family: Comic Sans MS;
 }
 
 #header {
-  background-color: #000;
+  background-color: #141414;
   padding: 20px;
   text-align: center;
-    background-image:url("https://img.itch.zone/aW1hZ2UvMTY1NDczNS85NzM1Nzg1LmdpZg==/original/LK07lW.gif")
 
 }
 
